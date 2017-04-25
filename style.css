@@ -14,6 +14,9 @@ header {
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 1%;
+  animation-name: blinkHead;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
 }
 .logo {
   display: inline-block;
@@ -24,6 +27,9 @@ header {
   padding-bottom: 15%;
   border-radius: 100%;
   margin: 0 10px 0 10px;
+  animation-name: blink;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
 }
 .sep {
   position: relative;
@@ -35,6 +41,117 @@ header {
   padding-bottom: 3%;
   margin: 0 -23px 0 -23px;
   z-index: 0;
+  animation-name: blinkSep;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-name: blinkd;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-name: blinke;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+.v {
+  animation-name: blinkv;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+.o {
+  animation-name: blinko;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+@keyframes blink {
+	0%, 25% {background-color: black; color: white}
+	25%, 26% {background-color: black; color: white}
+	26%, 30% {background-color: white; color: black}
+	30%, 31% {background-color: black; color: white}
+	31%, 32% {background-color: white; color: black}
+	32%, 33% {background-color: black; color: white}
+	33%, 58% {background-color: black; color: white}
+	58%, 59% {background-color: black; color: white}
+	59%, 72% {background-color: white; color: black}
+	72%, 73% {background-color: black; color: white;} 
+	73%, 100% {background-color: black; color: white;}
+}
+@keyframes blinkSep {
+	0%, 25% {background-color: black; color: white}
+	25%, 26% {background-color: black; color: white}
+	26%, 30% {background-color: white; color: black}
+	30%, 31% {background-color: black; color: white}
+	31%, 32% {background-color: white; color: black}
+	32%, 33% {background-color: black; color: white}
+	33%, 58% {background-color: black; color: white}
+	58%, 59% {background-color: black; color: white}
+	59%, 72% {display: none}
+	72%, 73% {background-color: black; color: white;} 
+	73%, 100% {background-color: black; color: white;}
+}
+@keyframes blinkHead {
+	0%, 25% {background-color: white;}
+	25%, 26% {background-color: white;}
+	26%, 30% {background-color: black;}
+	30%, 31% {background-color: white;}
+	31%, 32% {background-color: black;}
+	32%, 33% {background-color: white;}
+	33%, 100% {background-color: white;}
+}
+/*59, 61, 64, 66*/
+@keyframes blinkd {
+	0%, 25% {background-color: black; color: white;}
+	25%, 26% {background-color: black; color: white;}
+	26%, 30% {background-color: white; color: black;}
+	30%, 31% {background-color: black; color: white;}
+	31%, 32% {background-color: white; color: black;}
+	32%, 33% {background-color: black; color: white;}
+	33%, 58% {background-color: black; color: white;}
+	58%, 59% {background-color: black; color: white;}
+	59%, 61% {background-color: white; color: black;}
+	61%, 62% {background-color: black; color: white;} 
+	62%, 100% {background-color: black; color: white;}
+}
+@keyframes blinke {
+	0%, 25% {background-color: black; color: white;}
+	25%, 26% {background-color: black; color: white;}
+	26%, 30% {background-color: white; color: black;}
+	30%, 31% {background-color: black; color: white;}
+	31%, 32% {background-color: white; color: black;}
+	32%, 33% {background-color: black; color: white;}
+	33%, 60% {background-color: black; color: white;}
+	60%, 61% {background-color: black; color: white;}
+	61%, 63% {background-color: white; color: black;}
+	63%, 64% {background-color: black; color: white;} 
+	64%, 100% {background-color: black; color: white;}
+}
+@keyframes blinkv {
+	0%, 25% {background-color: black; color: white;}
+	25%, 26% {background-color: black; color: white;}
+	26%, 30% {background-color: white; color: black;}
+	30%, 31% {background-color: black; color: white;}
+	31%, 32% {background-color: white; color: black;}
+	32%, 33% {background-color: black; color: white;}
+	33%, 63% {background-color: black; color: white;}
+	63%, 64% {background-color: black; color: white;}
+	64%, 65% {background-color: white; color: black;}
+	65%, 66% {background-color: black; color: white;} 
+	66%, 100% {background-color: black; color: white;}
+}
+@keyframes blinko {
+	0%, 25% {background-color: black; color: white;}
+	25%, 26% {background-color: black; color: white;}
+	26%, 30% {background-color: white; color: black;}
+	30%, 31% {background-color: black; color: white;}
+	31%, 32% {background-color: white; color: black;}
+	32%, 33% {background-color: black; color: white;}
+	33%, 65% {background-color: black; color: white;}
+	65%, 66% {background-color: black; color: white;}
+	66%, 68% {background-color: white; color: black;}
+	68%, 69% {background-color: black; color: white;} 
+	69%, 100% {background-color: black; color: white;}
 }
 .odd {
   transform: rotate(30deg);

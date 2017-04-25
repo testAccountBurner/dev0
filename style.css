@@ -1,0 +1,425 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+header {
+  background-color: white;
+  padding: 1%;
+  text-align: center;
+  width: 60%;
+  height: 0;
+  padding-bottom: 10%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+.logo {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  width: 15%;
+  height: 0;
+  padding-bottom: 15%;
+  border-radius: 100%;
+  margin: 0 10px 0 10px;
+}
+.sep {
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  background-color: black;
+  height: 0;
+  width: 10%;
+  padding-bottom: 3%;
+  margin: 0 -23px 0 -23px;
+  z-index: 0;
+}
+.odd {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+.even {
+  transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+}
+main {
+  text-align: center;
+}
+.char {
+  display: inline-block;
+  background: -webkit-linear-gradient(#497bff 10%, black);
+  background: -o-linear-gradient(#497bff 10%, black);
+  background: -moz-linear-gradient(#497bff 10%, black);
+  background: linear-gradient(black, 10%, #497bff, 40%, black);
+  border-radius: 20px;
+  box-shadow: inset 0px -30px 40px 30px black;
+}
+.hat {
+  border-radius: 25% 25% 25% 25%;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, 60%, red);
+  background: -o-linear-gradient(black, 60%, red);
+  background: -moz-linear-gradient(black, 60%, red);
+  background: linear-gradient(black, 60%, red);
+  border-style: solid;
+  border-color: black;
+  border-size: 10px;
+  margin: 0 auto;
+}
+.one {
+  height: 18px;
+  width: 75px;
+  z-index: 8;
+  position: relative;
+  top: 30px;
+}
+.two {
+  height: 20px;
+  width: 90px;
+  z-index: 7;
+  position: relative;
+  top: 20px;
+}
+.three {
+  height: 22px;
+  width: 105px;
+  z-index: 6;
+  position: relative;
+  top: 10px;
+}
+.four {
+  height: 24px;
+  width: 120px;
+  z-index: 5;
+  position: relative;
+}
+.face {
+  background-color: #f7f3d7;
+  height: 111px;
+  width: 90px;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(90deg, #f7f3d7, 60%, black);
+  background: -o-linear-gradient(90deg, #f7f3d7, 60%, black);
+  background: -moz-linear-gradient(90deg, #f7f3d7, 60%, black);
+  background: linear-gradient(90deg, #f7f3d7, 60%, black);
+  border-radius: 50% 50% 75% 75%;
+  position: relative;
+  top: -50px;
+  border-style: solid;
+  border-color: black;
+  border-size: 10px;
+}
+.eye {
+  display: inline-block;
+  background-color: white;
+  background: -webkit-linear-gradient(90deg, white, 80%, black);
+  background: -o-linear-gradient(90deg, white, 80%, black);
+  background: -moz-linear-gradient(90deg, white, 80%, black);
+  background: linear-gradient(90deg, white, 80%, black);
+  height: 11px;
+  width: 18px;
+  position: relative;
+  top: -130px;
+  margin: 8px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.eyeball {
+  display: inline-block;
+  background-color: black;
+  background: -webkit-linear-gradient(90deg, white, 10%, black);
+  background: -o-linear-gradient(90deg, white, 10%, black);
+  background: -moz-linear-gradient(90deg, white, 10%, black);
+  background: linear-gradient(90deg, white, 10%, black);
+  height: 7px;
+  width: 10px;
+  position: relative;
+  top: -166px;
+  margin: 12px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.nose {
+  height: 25px;
+  width: 12px;
+  background-color: yellow;
+  position: relative;
+  top: -180px;
+  margin: 0 auto;
+  border-radius: 100% 100% 70% 70%;
+  background: -webkit-linear-gradient(90deg, #f7f3d7, 50%, black);
+  background: -o-linear-gradient(90deg, #f7f3d7, 50%, black);
+  background: -moz-linear-gradient(90deg, #f7f3d7, 50%, black);
+  background: linear-gradient(90deg, #f7f3d7,50%, black);
+}
+span.nose {
+  display: inline-block;
+  margin: 44px;
+  top: -262px;
+  width: 9px;
+  height: 27px;
+  background: -webkit-linear-gradient(90deg, #f7f3d7, 15%, black);
+  background: -o-linear-gradient(90deg, #f7f3d7, 15%, black);
+  background: -moz-linear-gradient(90deg, #f7f3d7, 15%, black);
+  background: linear-gradient(90deg, #f7f3d7, 15%, black);
+}
+.nose.ear {
+  background: -webkit-linear-gradient(90deg, black, 90%, #f7f3d7);
+  background: -o-linear-gradient(90deg, black, 90%, #f7f3d7);
+  background: -moz-linear-gradient(90deg, black, 90%, #f7f3d7);
+  background: linear-gradient(90deg, black, 90%, #f7f3d7);
+}
+.mouth {
+  border-top: thick solid black;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  top: -290px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.mouth.notMark {
+  animation-name: sing;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+.mouth.mouthMark {
+  animation-name: singMark;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+@keyframes singMark {
+	0%, 9% {background-color: transparent;}
+	9%, 10% {background-color: transparent;}
+	10%, 11% {background-color: black;}
+	11%, 12% {background-color: transparent;}
+	12%, 12.5% {background-color: black;}
+	12.5%, 13% {background-color: transparent;}
+	13%, 15% {background-color: black;}
+	15%, 16% {background-color: transparent;}
+	16%, 17% {background-color: black;}
+	17%, 19% {background-color: transparent;}
+	19%, 42% {background-color: transparent;}
+	42%, 43% {background-color: transparent;}
+	43%, 44% {background-color: black;}
+	44%, 45% {background-color: transparent;}
+	45%, 45.5% {background-color: black;}
+	45.5%, 46% {background-color: transparent;}
+	46%, 48% {background-color: black;}
+	48%, 49% {background-color: transparent;}
+	49%, 50% {background-color: black;}
+	50%, 51% {background-color: transparent;}
+	51%, 100% {background-color: transparent;}
+}
+
+@keyframes sing {
+	0%, 25% {background-color: transparent;}
+	25%, 26% {background-color: transparent;}
+	26%, 27% {background-color: black;}
+	28%, 29% {background-color: transparent;}
+	29%, 30% {background-color: black;}
+	30%, 31% {background-color: transparent;}
+	31%, 32% {background-color: black;}
+	32%, 33% {background-color: transparent;}
+	33%, 40% {background-color: black;}
+	40%, 41% {background-color: transparent;}
+	41%, 58% {background-color: transparent;}
+	58%, 59% {background-color: transparent;}
+	59%, 63% {background-color: black;}
+	63%, 64% {background-color: transparent;}
+	64%, 65% {background-color: black;}
+	65%, 66% {background-color: transparent;}
+	66%, 70% {background-color: black;}
+	70%, 71% {background-color: transparent;}
+	71%, 100% {background-color: transparent;}
+}
+.lip {
+  border-top: 2px solid black;
+  width: 15px;
+  height: 2px;
+  position: relative;
+  top: -295px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.glass {
+  display: inline-block;
+  border: thick solid transparent;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  top: -356px;
+  margin: 0 auto;
+  border-radius: 5px;
+  z-index: 9;
+}
+.mark {
+  border: thick solid #10961b;
+  border-radius: 100%;
+  height: 20px;
+  width: 25px;
+  top: -362px;
+}
+.alan {
+  border: thick solid black;
+}
+@media screen and (min-width: 0px) {
+  header {
+    font-size: 30px;
+  }
+  .sep {
+    top: -7px;
+  }
+}
+@media screen and (min-width: 0px) {
+  header {
+    font-size: 30px;
+  }
+  .sep {
+    top: -7px;
+  }
+}
+@media screen and (min-width: 0px) {
+  header {
+    font-size: 30px;
+  }
+  .sep {
+    top: -7px;
+  }
+}
+@media screen and (min-width: 450px) {
+  header {
+    font-size: 35px;
+  }
+  .sep {
+    top: -6px;
+  }
+}
+@media screen and (min-width: 500px) {
+  header {
+    font-size: 35px;
+  }
+  .sep {
+    top: -6px;
+  }
+}
+@media screen and (min-width: 550px) {
+  header {
+    font-size: 40px;
+  }
+  .sep {
+    top: -5px;
+  }
+}
+@media screen and (min-width: 650px) {
+  header {
+    font-size: 50px;
+  }
+  .sep {
+    top: -10px;
+    margin: 0 -25px 0 -25px;
+  }
+}
+@media screen and (min-width: 700px) {
+  header {
+    font-size: 55px;
+  }
+  .sep {
+    top: -10px;
+    margin: 0 -27px 0 -27px;
+  }
+}
+@media screen and (min-width: 750px) {
+  header {
+    font-size: 60px;
+  }
+  .sep {
+    top: -10px;
+    margin: 0 -30px 0 -30px;
+  }
+}
+@media screen and (min-width: 800px) {
+  header {
+    font-size: 65px;
+  }
+  .sep {
+    top: -10px;
+    margin: 0 -32px 0 -32px;
+  }
+}
+@media screen and (min-width: 850px) {
+  header {
+    font-size: 70px;
+  }
+  .sep {
+    top: -15px;
+    margin: 0 -34px 0 -34px;
+  }
+}
+@media screen and (min-width: 900px) {
+  header {
+    font-size: 75px;
+  }
+  .sep {
+    top: -15px;
+    margin: 0 -36px 0 -36px;
+  }
+}
+@media screen and (min-width: 950px) {
+  header {
+    font-size: 80px;
+  }
+  .sep {
+    top: -15px;
+    margin: 0 -36px 0 -36px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  header {
+    font-size: 85px;
+  }
+  .sep {
+    top: -20px;
+    margin: 0 -38px 0 -38px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  header {
+    font-size: 90px;
+  }
+  .sep {
+    top: -25px;
+    margin: 0 -38px 0 -38px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  header {
+    font-size: 95px;
+  }
+  .sep {
+    top: -25px;
+    margin: 0 -40px 0 -40px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  header {
+    font-size: 100px;
+  }
+  .sep {
+    top: -30px;
+    margin: 0 -40px 0 -40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header {
+    font-size: 100px;
+  }
+  .sep {
+    top: -25px;
+    margin: 0 -43px 0 -43px;
+  }
+}
